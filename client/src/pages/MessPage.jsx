@@ -12,7 +12,9 @@ const messTimetable = [
   { day: "Friday", breakfast: "Poha", lunch: "Aloo Gobi, Dal Makhani, Curd, Rice", snacks: "Pasta", dinner: "Dal Tadka, Roti, Salad, Rice, Milk" },
   { day: "Saturday", breakfast: "aloo puri", lunch: "Baingan Bharta, Dal, Curd, Rice", snacks: "Chowmein", dinner: "Mix Veg, Roti, Salad, Rice, Milk" },
   { day: "Sunday", breakfast: "Aloo Paratha", lunch: "Special Thali", snacks: "Poha", dinner: "Chicken/Paneer, Roti, Salad, Rice, Milk" },
-];
+];  
+
+
 
 const MessPage = () => {
   return (
