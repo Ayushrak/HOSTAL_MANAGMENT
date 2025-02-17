@@ -14,6 +14,10 @@ const messTimetable = [
   { day: "Sunday", breakfast: "Aloo Paratha", lunch: "Special Thali", snacks: "Poha", dinner: "Chicken/Paneer, Roti, Salad, Rice, Milk" },
 ];  
 
+const add=()=>[
+  
+]
+
 
 
 const MessPage = () => {
