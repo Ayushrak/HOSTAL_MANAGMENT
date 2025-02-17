@@ -72,6 +72,12 @@ export default function Navbar() {
           Mess Menu
         </Link>
         <Link
+          to="/gym"
+          className="hover:text-blue-500 transition-colors duration-200"
+        >
+          Gym
+        </Link>
+        <Link
           to="/complaint"
           className="hover:text-blue-500 transition-colors duration-200"
         >

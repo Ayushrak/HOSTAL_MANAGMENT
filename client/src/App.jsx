@@ -12,6 +12,7 @@ import Complaint from './pages/Complaint';
 import Contact from './pages/Contact';
 import MessPage from './pages/MessPage';
 import RoomBooking from './pages/room-booking';
+import GymPage from './pages/GymPage';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/complaint" element={<Complaint />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/mess" element={<MessPage />} />
+          <Route path="/gym" element={<GymPage />} />
           <Route path="/room-booking" element={<RoomBooking />} />
           <Route path="/hostel-fest-sports" element={<HostelFestSports />} />
         </Routes>
