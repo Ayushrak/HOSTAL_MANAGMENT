@@ -46,6 +46,7 @@ export const signup = async (req, res) => {
 };
 
 // 🔹 User Login
+// 🔹 User Login
 export const login = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -54,20 +55,14 @@ export const login = async (req, res) => {
     const user = await User.findOne({ email });
     if (!user) return res.status(400).json({ message: "User not found" });
 
-    // 🔹 Compare hashed password
-    const trimmedPassword = password.trim(); // Trim the password
-    const isMatch = await bcryptjs.compare(trimmedPassword, user.password);
+    if (!password) return res.status(400).json({ message: "Password is required" });
 
-    // Debugging logs
-    console.log("Provided Password:", trimmedPassword);
-    console.log("Stored Hashed Password:", user.password);
-    console.log("Password Match:", isMatch);
+    // 🔹 Compare hashed password
+    const isMatch = await bcryptjs.compare(password, user.password);
 
     if (!isMatch) {
-      return res.status(400).json({
-        message: "Invalid credentials",
-        error: true,
-      });
+      console.log("Login Failed: Incorrect password");
+      return res.status(400).json({ message: "Invalid credentials" });
     }
 
     // Generate JWT token
