@@ -5,13 +5,13 @@ import Card from "../components/ui/Card";
 import Button from "../components/ui/Button";
 
 const messTimetable = [
-  { day: "Monday", breakfast: "Poha", lunch: "Paneer, Aloo Sabji, Dal, Curd, Rice", snacks: "Samosa", dinner: "Rajma, Roti, Salad, Rice, Milk" },
-  { day: "Tuesday", breakfast: "Aloo Paratha", lunch: "Mix Veg, Chana Masala, Dal, Curd, Rice", snacks: "Chowmein", dinner: "Kadhi Pakoda, Roti, Salad, Rice, Milk" },
-  { day: "Wednesday", breakfast: "Upma", lunch: "Bhindi, Chole, Dal, Curd, Rice", snacks: "Pakodi", dinner: "Aloo Matar, Roti, Salad, Rice, Milk" },
-  { day: "Thursday", breakfast: "Daliya", lunch: "Kofta, Rajma, Dal, Curd, Rice", snacks: "Pasta", dinner: "Matar Paneer, Roti, Salad, Rice, Milk" },
-  { day: "Friday", breakfast: "Chana & Bread", lunch: "Aloo Gobi, Dal Makhani, Curd, Rice", snacks: "Kachori", dinner: "Dal Tadka, Roti, Salad, Rice, Milk" },
-  { day: "Saturday", breakfast: "Dhokla", lunch: "Baingan Bharta, Dal, Curd, Rice", snacks: "Poha", dinner: "Mix Veg, Roti, Salad, Rice, Milk" },
-  { day: "Sunday", breakfast: "Idli Sambar", lunch: "Special Thali", snacks: "Burger", dinner: "Chicken/Paneer, Roti, Salad, Rice, Milk" },
+  { day: "Monday", breakfast: "Paratha", lunch: "Paneer, Aloo Sabji, Dal, Curd, Rice", snacks: "Sandwich", dinner: "Rajma, Roti, Salad, Rice, Milk" },
+  { day: "Tuesday", breakfast: "idli Sambar", lunch: "Mix Veg, Chana Masala, Dal, Curd, Rice", snacks: "Patties", dinner: "Kadhi Pakoda, Roti, Salad, Rice, Milk" },
+  { day: "Wednesday", breakfast: "Pav bhaji", lunch: "Bhindi, Chole, Dal, Curd, Rice", snacks: "Kachori", dinner: "Aloo Matar, Roti, Salad, Rice, Milk" },
+  { day: "Thursday", breakfast: "Mathi paratha ", lunch: "Kofta, Rajma, Dal, Curd, Rice", snacks: "Samosa", dinner: "Matar Paneer, Roti, Salad, Rice, Milk" },
+  { day: "Friday", breakfast: "Poha", lunch: "Aloo Gobi, Dal Makhani, Curd, Rice", snacks: "Pasta", dinner: "Dal Tadka, Roti, Salad, Rice, Milk" },
+  { day: "Saturday", breakfast: "aloo puri", lunch: "Baingan Bharta, Dal, Curd, Rice", snacks: "Chowmein", dinner: "Mix Veg, Roti, Salad, Rice, Milk" },
+  { day: "Sunday", breakfast: "Aloo Paratha", lunch: "Special Thali", snacks: "Poha", dinner: "Chicken/Paneer, Roti, Salad, Rice, Milk" },
 ];
 
 const MessPage = () => {
@@ -20,9 +20,13 @@ const MessPage = () => {
       {/* Carousel */}
       <Card>
         <Carousel autoPlay infiniteLoop showThumbs={false}>
-          <div><img src="https://www.shutterstock.com/image-photo/cafeteria-canteen-interior-school-factory-chairs-1681547044" alt="Food 1" /></div>
-          <div><img src="./assets/" alt="Food 2" /></div>
-          <div><img src="/images/food3.jpg" alt="Food 3" /></div>
+          <div><img src="https://www.shutterstock.com/image-photo/cafeteria-canteen-interior-school-factory-chairs-1681547044" alt="Day 1" /></div>
+          <div><img src="./assets/" alt="Day 2" /></div>
+          <div><img src="/images/food3.jpg" alt="Day 3" /></div>
+          <div><img src="./assets/"  alt="Day 4" /></div>
+          <div><img src="./assets/"  alt="Day 5" /></div>
+          <div><img src="./assets/"  alt="Day 6" /></div>
+          <div><img src="./assets/"  alt="Day 7" /></div>
         </Carousel>
       </Card>
 
@@ -66,15 +70,16 @@ const MessPage = () => {
 
       {/* Complaint Section */}
       <Card>
-        <h2 className="text-lg font-semibold mb-2">Mess Complaint Section</h2>
+        <h2 className="text-lg font-semibold mb-2">Mess Review Section</h2>
         <textarea
           className="w-full p-2 border rounded"
-          placeholder="Write your complaint here..."
+          placeholder="Write your review here..."
         />
-        <Button className="mt-4" onClick={() => alert("Complaint Submitted!")}>
-          Submit Complaint
+        <Button className="mt-4" onClick={() => alert("Review Submitted!")}>
+          Submit Review
         </Button>
       </Card>
+      
     </div>
   );
 };

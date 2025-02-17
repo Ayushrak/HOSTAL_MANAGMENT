@@ -5,7 +5,7 @@ const rooms = [
   {
     id: 1,
     type: "Single Room",
-    price: "₹10,000/month",
+    price: "₹15,000/month",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWZrv3G2hvd9kuQ_OqyexAKEMrhfT0Yp8l1exLmm1xhrUwvjnDPPt5-0sxn4QjEwZkDIY&usqp=CAU",
     facilities: ["Wi-Fi", "Attached Bathroom", "Study Table", "Security"],
     status: "Available",
@@ -13,7 +13,7 @@ const rooms = [
   {
     id: 2,
     type: "Double Room",
-    price: "₹8,000/month",
+    price: "₹12,000/month",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvbvEGIVXrwL-pCdILQ7nKATQxWjj8yZ_0aA&s",
     facilities: ["Wi-Fi", "Shared Bathroom", "Laundry", "Canteen Access"],
     status: "Limited",
@@ -21,7 +21,7 @@ const rooms = [
   {
     id: 3,
     type: "Shared Room",
-    price: "₹5,000/month",
+    price: "₹10,000/month",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvbvEGIVXrwL-pCdILQ7nKATQxWjj8yZ_0aA&s",
     facilities: ["Wi-Fi", "Common Study Room", "Mess Food", "Security"],
     status: "Full",

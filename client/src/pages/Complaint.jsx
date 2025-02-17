@@ -5,6 +5,7 @@ import axios from "axios";
 export default function Complaint() {
   const [formData, setFormData] = useState({
     name: "",
+    studentId: "",
     roomNo: "",
     complaintCategory: "",
     complaintType: "",

@@ -7,9 +7,9 @@ export default function Contact() {
         <div className="bg-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
           <h3 className="text-xl font-semibold mb-3">👨‍🏫 Wardens & Chief Proctor</h3>
           <ul className="space-y-3">
-            <li className="border-b pb-2"><strong>Dr. Rajesh Kumar</strong> - Chief Proctor | 📞 +91 98765 43210</li>
-            <li className="border-b pb-2"><strong>Mr. Sanjay Mehta</strong> - Warden (Boys Hostel) | 📞 +91 87654 32109</li>
-            <li className="border-b pb-2"><strong>Mrs. Anjali Sharma</strong> - Warden (Girls Hostel) | 📞 +91 76543 21098</li>
+            <li className="border-b pb-2"><strong>Mr. Ashwin Lata</strong> - Student Welfare Head | 📞 +91 98765 43210</li>
+            <li className="border-b pb-2"><strong>Mr. Dinesh Sharma</strong> - Warden (Boys Hostel) | 📞 +91 9929013218</li>
+            <li className="border-b pb-2"><strong>Mrs. Tulshi Sharma</strong> - Warden (Girls Hostel) | 📞 +91 76543 21098</li>
           </ul>
         </div>
   
@@ -26,15 +26,15 @@ export default function Contact() {
             <tbody>
               <tr>
                 <td className="border p-2">Single Room</td>
-                <td className="border p-2">50,000/year</td>
+                <td className="border p-2">170,000/year</td>
               </tr>
               <tr>
                 <td className="border p-2">Double Sharing</td>
-                <td className="border p-2">35,000/year</td>
+                <td className="border p-2">120,000/year</td>
               </tr>
               <tr>
                 <td className="border p-2">Triple Sharing</td>
-                <td className="border p-2">25,000/year</td>
+                <td className="border p-2">1,05,000/year</td>
               </tr>
             </tbody>
           </table>
